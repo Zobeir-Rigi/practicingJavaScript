@@ -20,4 +20,3 @@ const numberWords = {
   console.log(wordsToNumber("twenty five")); // 25
   console.log(wordsToNumber("ninety eight")); // 98
   console.log(wordsToNumber("four hundred ninety nine")); // 499
-  
