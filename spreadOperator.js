@@ -21,6 +21,8 @@ console.log(obj3) // {a: 0, b: 2, c: 3}
 
 let str = "hello"
 let chars = [...str]
+let str1 = str.split('')
+console.log(str1) // ['h', 'e', 'l', 'l', 'o']
 console.log(chars) // ['h', 'e', 'l', 'l', 'o']
 
 let arr4 = [1, 2, 3]
