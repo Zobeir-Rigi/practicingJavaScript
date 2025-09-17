@@ -31,3 +31,9 @@ console.log(arr5) // [1, 2, 3, 4, 5, 6]
 
 var fruits = ["Apples", "Oranges", "Bananas"];
 console.log("Mangoes", ...fruits);
+
+
+function max (...vars) { 
+    return Math.max(...vars) 
+};
+console.log(max(max(1,3,2,4,100,23,54,10), 50, 1000)); // 1000
