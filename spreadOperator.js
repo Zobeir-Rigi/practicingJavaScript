@@ -28,3 +28,6 @@ console.log(chars) // ['h', 'e', 'l', 'l', 'o']
 let arr4 = [1, 2, 3]
 let arr5 = [...arr4, 4, 5, 6]
 console.log(arr5) // [1, 2, 3, 4, 5, 6]
+
+var fruits = ["Apples", "Oranges", "Bananas"];
+console.log("Mangoes", ...fruits);

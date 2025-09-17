@@ -3,4 +3,6 @@
 let number = false
 const expression = `john's money is {10+20}$ and my money is ${number?10:`nothing`}`
 
-console.log(expression)
+// with back ticks `` we define tagged template literals, or styled components or template strings
+
+ console.log(expression)
