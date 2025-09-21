@@ -14,6 +14,7 @@ console.log(typeof(false))
 
 // type are dynamic in javascript vs static in other languages like java, c, c++, c# etc
 // we can change the type of variable at any time
+
 let a = 10
 console.log(typeof(a))
 a = "hello" 
