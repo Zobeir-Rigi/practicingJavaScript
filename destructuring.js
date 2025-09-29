@@ -9,5 +9,6 @@ const arr = [1,2,3,4,5]
 // const first = arr[0]
 // const second = arr[1]
 
-const[first, second, ...other]=arr
+const[first,second,...other]=arr
 console.log(other)
+console.log(...arr, second)
