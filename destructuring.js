@@ -12,3 +12,9 @@ const arr = [1,2,3,4,5]
 const[first,second,...other]=arr
 console.log(other)
 console.log(...arr, second)
+
+function destruct([first, second]){
+    console.log(first, second)
+}
+destruct(arr)
+
